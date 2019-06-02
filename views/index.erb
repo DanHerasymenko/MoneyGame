@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head> 
+    <meta charset = "utf-8">
+    <title>myGame</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?
+    family=Cardo:400i|Open+Sans:700|Raleway:400,600,700&
+    display=swap&subset=cyrillic" 
+    rel="stylesheet">
+    
+        
+
+</head>
+<body>
+    <div id="liqpay_checkout"></div>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                 <a class="nav__logo" href="/">MoneyGame</a>
+
+                 
+    
+                <nav class="nav">
+                    <a class="nav__link" href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5Ijoic2FuZGJveF9pNjQ2Mjc3MjE4NzAiLCJhbW91bnQiOiI1IiwiY3VycmVuY3kiOiJVU0QiLCJkZXNjcmlwdGlvbiI6IlBsYXkgTW9uZXlHYW1lIiwidHlwZSI6ImRvbmF0ZSIsInNlcnZlcl91cmwiOiJodHRwOi8vcnVieXNjaG9vbC51cy8iLCJsYW5ndWFnZSI6InJ1In0%3D&signature=IHEGcalYgdR03sl8Y%2FXd694D670%3D" target="_blank">Donate</a>
+                    <a class="nav__link" href="/about">About</a>
+                    <a class="nav__link" href="#">Authorize </a>
+                    <a class="nav__link" href="#">Find Me</a>
+                    
+                </nav>
+             
+            
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="list">
+        <ul >
+
+        <%@a.each_with_index do |client,index|%>
+        
+                <li class="list__item"><%="#{index+1}.#{client.name} - #{client.money}$"%></li>
+            
+        <%end%>
+        </ul>
+
+        
+        </div>
+    </div>
+ 
+    
+
+
+
+</body>
+</html>
+
+
+     
