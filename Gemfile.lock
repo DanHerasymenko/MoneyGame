@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/liqpay/sdk-ruby.git
+  remote: https://github.com/liqpay/sdk-ruby.git
   revision: a7a990f1410bdfc281fcfc66828555b4bc1e6260
   specs:
     liqpay (0.0.2)
@@ -26,7 +26,7 @@ GEM
     minitest (5.11.3)
     multi_json (1.13.1)
     mustermann (1.0.3)
-    rack (2.0.7)
+    rack (2.0.8)
     rack-protection (2.0.5)
       rack
     rake (12.3.2)
